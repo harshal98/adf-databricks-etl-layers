@@ -1,6 +1,6 @@
 # adf-databricks-etl-layers
 
-![Architecture Diagram](docs/Architecture.png)
+![Architecture Diagram](/docs/Architechture.png)
 
 ## Overview
 
