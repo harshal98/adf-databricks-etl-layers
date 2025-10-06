@@ -1,12 +1,12 @@
 # adf-databricks-etl-layers
 
-![Architecture Diagram](docs/architecture.png)
-
 ## Overview
 
 This repository contains an Azure Databricks PySpark ETL pipeline orchestrated with Azure Data Factory (ADF). The solution ingests EMR (Electronic Medical Records) data and transforms it through a **Bronze → Silver → Gold** lakehouse architecture for scalable, structured analytics. Sensitive credentials and secrets are securely managed using **Azure Key Vault**.
 
 ## Architecture
+
+![Architecture Diagram](/docs/Architechture.png)
  
 - **Azure Data Factory**: Orchestrates data movement and transformation workflows.
 - **Azure Databricks**: Executes scalable PySpark ETL jobs.
